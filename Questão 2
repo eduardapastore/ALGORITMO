@@ -9,6 +9,6 @@ leia (base)
 escreval("digite a altura do triângulo")
 leia (altura)
 area <- (base*altura)/2
-escreval("a área do quadrado é igual a: ", area)
+escreval("a área do quadrado é igual a: ", area )
   
   fimalgoritmo
