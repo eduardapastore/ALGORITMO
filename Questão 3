@@ -1,0 +1,19 @@
+algoritmo "Ex 3"
+
+  var a, b, AUX : real
+
+inicio
+  
+escreval("digite o primeiro número: ")
+      leia(a)
+escreval("digite o segundo número: ")
+      leia(b)
+
+AUX <- a
+a <- b
+b <- AUX
+
+escreval("o valor de a fica: ", a)
+escreval("o valor de b fica: ", b)
+
+fimalgoritmo
