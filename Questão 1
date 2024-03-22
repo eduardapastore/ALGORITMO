@@ -1,4 +1,4 @@
-algoritmo "área do quadrado"
+ algoritmo "área do quadrado"
 
   var lado, area : real
 
