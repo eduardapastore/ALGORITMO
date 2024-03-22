@@ -1,0 +1,12 @@
+algoritmo "área do quadrado"
+
+  var lado, area : real
+
+ inicio
+
+   escreval("digite o lado do quadrado:")
+   leia(lado)
+   area  <- lado^2
+   escreval("a área do quadrado é: ", area)
+
+fimalgoritmo
