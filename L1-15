@@ -1,0 +1,16 @@
+algoritmo "Questão 15"
+  var p, i, n, result : real
+
+   inicio
+  
+escreval("digite o valor da aplicação mensal: ")
+leia(p)
+escreval("digite a taxa: ")
+leia(i)
+escreval("digite o número de meses do rendimento: ")
+leia(n)
+
+result <- p*((1+i)^n – 1)/ i
+escreval("valor acumulado: ", result)
+
+  fimalgoritmo
