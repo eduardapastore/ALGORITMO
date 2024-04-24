@@ -1,0 +1,19 @@
+algoritmo "Questão 13"
+  var salmin, uni_kilowatt, kilo_casa, valor, valor_desc : real
+
+   inicio
+  
+escreval("digite o salário mínimo")
+leia(salmin)
+escreval("digite quantos kilowatts são gastos na casa")
+leia(kilo_casa)
+
+uni_kilowatt <- salmin/10
+valor <- uni_kilowatt/kilo_casa
+valor_desc <- valor*1.1
+
+escreval("valor do kilowatt: ", uni_kilowatt)
+escreval("valor a ser pago: ", valor)
+escreval("valor com desconto de 10%: ", valor_desc)
+
+  fimalgoritmo
