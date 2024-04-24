@@ -1,0 +1,30 @@
+algoritmo "Questão 16"
+
+var qntd, fitas_fimdoano, fitas_estragadas, fitas_repostas : inteiro
+var aluguel, faturamento_mensal, faturamento_anual, multa, multa_mensal : real
+
+inicio
+//leitura dos valores pra calcular
+escreval("Digite a quantidade de fitas: ")
+   leia(qntd)
+escreval("Digite o valor do aluguel da fita: ")
+   leia(aluguel)
+
+//faturamento mensal para calcular o anual
+faturamento_mensal <- (qntd/3)*aluguel
+faturamento_anual <- faturamento_mensal*12
+
+//calculo da multa para achar a multa mensal
+multa <- aluguel*(10/100)
+multa_mensal <- (qntd/10)*multa
+
+//calculo das fitas estragadas e das fitas compradas pra saber quanto sobra no fim do ano
+fitas_estragadas <- qntd*(2/100)
+fitas_repostas <- (qntd - fitas_estragadas)/10
+fitas_fimdoano <- (qntd-fitas_estragadas)+fitas_repostas
+
+escreval("O faturamento anual é: ", faturamento_anual)
+escreval("O faturamento com multas por mês é de: ", multa_mensal)
+escreval("A quantidade de fitas que sobram no fim do ano é: ", fitas_fimdoano)
+
+fimalgoritmo
