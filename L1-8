@@ -1,0 +1,15 @@
+algoritmo "Questão 8"
+  
+var salariominimo, salario, quantidade : real
+
+inicio
+
+escreval("Digite o seu salário: ")
+leia(salario)
+
+salariominimo <- 1400
+quantidade <- salario/salariominimo
+
+escreval("Quantidade de salarios mínimos que a pessoa ganha: ", quantidade) 
+
+fimalgoritmo
