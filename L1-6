@@ -1,0 +1,18 @@
+algoritmo "Questão 6"
+  
+var a, b, quociente, resto : inteiro
+
+inicio
+
+escreval("Digite o primeiro número inteiro: ")
+      leia(a)
+escreval("Digite o segundo número inteiro: ")
+      leia(b)
+
+quociente <- a/b
+resto <- a MOD b
+
+escreval("Resto: ", resto)
+escreval("Quociente: ", quociente)
+
+fimalgoritmo
