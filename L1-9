@@ -1,0 +1,20 @@
+algoritmo "Questão 9"
+
+var a, b, difquadrados, quadiferenca : real
+
+inicio
+
+escreval("Digite o primeiro número; ")
+leia(a)
+escreval("Digite o segundo número: ")
+leia(b)
+
+difquadrados <- (a*a)-(b*b)
+quadiferenca <- (a-b)*(a-b)
+
+escreval("Quadrado da diferença: ", quadiferenca)
+escreval("Diferença dos quadrados: ", difquadrados) 
+
+fimalgoritmo
+
+
