@@ -1,0 +1,17 @@
+algoritmo "Questão 14"
+  var tempo, velocidade, distancia, litro : real
+
+   inicio
+  
+escreval("digite o tempo gasto na viagem: ")
+leia(tempo)
+escreval("digite a velocidade média da viagem: ")
+leia(velocidade)
+
+distancia <- tempo/velocidade
+litro <- distancia/(1/12)
+
+escreval("distância da viagem: ", distancia)
+escreval("quantos litros foram gastos:  ", litro)
+
+  fimalgoritmo
