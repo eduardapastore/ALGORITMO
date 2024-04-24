@@ -1,0 +1,14 @@
+algoritmo "Questão 7"
+  
+var a, reajuste : real
+
+inicio
+
+escreval("Digite o saldo de entrada: ")
+leia (a)
+
+reajuste <- a*1.01
+
+escreval("Saldo com reajuste: ", reajuste)
+
+fimalgoritmo
