@@ -1,0 +1,24 @@
+algoritmo "Questão 11"
+
+//variáveis
+var md1, md2, md3, md4, mp : real
+
+ inicio
+ 
+//entrada de dados
+escreval("digite a primeira média: ")
+leia(md1)
+escreval("digite a segunda média: ")
+leia(md2)
+escreval("digite a terceira média: ")
+leia(md3)
+escreval("digite a quarta média: ")
+leia(md4)
+
+//processamento
+mp <- (md1*1)+(md2*2)+(md3*3)+(md4*4)/4
+
+//saída de dados
+escreval("média ponderada = ", mp)
+
+fimalgoritmo
