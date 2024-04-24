@@ -1,0 +1,16 @@
+algoritmo "Questão 10"
+  
+var hr, min, seg : inteiro
+
+inicio
+
+escreval("Digite as horas: ")
+      leia(hr)
+escreval("Digite os minutos: ")
+      leia(min)
+
+seg <- (hr*120)+(min*60)
+
+escreval("Quantidades de segundos do dia até agora: ", seg)
+
+fimalgoritmo
