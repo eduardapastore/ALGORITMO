@@ -1,0 +1,16 @@
+algoritmo "Questão 4"
+  
+var a, antecessor, sucessor : real
+
+inicio
+
+escreval("Digite um número: ")
+leia(a)
+
+antecessor <- a-1
+sucessor <- a+1
+
+escreval("O antecessor é: ", antecessor)
+escreval("O sucessor é: ", sucessor) 
+
+fimalgoritmo
