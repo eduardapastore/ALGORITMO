@@ -1,0 +1,20 @@
+Algoritmo "Q3"
+
+Var
+cont : inteiro
+num: real
+resp: caractere
+
+Inicio
+
+cont <- 0
+repita
+      escreval("digite um número: ")
+      leia(num)
+      se (num >100) e (num < 200) entao
+      cont <- cont+1
+      escreval("deseja digitar outro número?[S/N]")
+      leia(resp)
+      escreval("quantidade de números digitados entre 100 e 200: ", cont)
+ate resp <- "N"
+Fimalgoritmo
