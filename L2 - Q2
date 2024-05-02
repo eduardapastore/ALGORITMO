@@ -1,0 +1,16 @@
+Algoritmo "Q2"
+
+Var
+x : inteiro
+num, quadrado: real
+
+Inicio
+
+para x de 1 ate 100 faca
+     escreval("digite o numero")
+     leia(num)
+     quadrado <- num*num
+     escreval("quadrado: ", quadrado)
+fimpara
+
+Fimalgoritmo
