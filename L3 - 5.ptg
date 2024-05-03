@@ -1,0 +1,22 @@
+Algoritmo "5"
+
+Var
+
+cont : inteiro
+profissao : caractere
+
+Inicio
+
+cont <- 0
+
+repita
+      escreval("digite sua profissão: (digite fim para encerrar) ")
+      leia(profissao)
+      se profissao = "programador" então
+         cont := cont+1
+      fimse
+até profissao = "fim"
+escreval("quantidade de programadores: ", cont)
+
+Fimalgoritmo
+
