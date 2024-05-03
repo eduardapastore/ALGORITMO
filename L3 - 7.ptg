@@ -1,0 +1,24 @@
+algoritmo "questao"
+
+var nome, sexo: caractere
+var idade, x : inteiro
+
+ inicio
+
+para x de 1 ate 2 faca
+   escreval("digite o nome: ")
+   leia(nome)
+   escreval("digite a idade: ")
+   leia(idade)
+   escreval("digite o sexo")
+   leia(sexo)
+
+se (sexo = "m") e (idade > 21) entao
+   escreval(" ")
+   escreval(nome)
+fimse
+fimpara
+
+
+
+  fimalgoritmo
