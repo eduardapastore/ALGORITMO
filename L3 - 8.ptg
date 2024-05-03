@@ -1,0 +1,27 @@
+Algoritmo "questão"
+
+Var
+
+idade, contv, contc : inteiro
+
+Inicio
+
+contv <- 0
+contc <- 0
+
+repita
+      escreval("digite sua idade (digite 0 para encerrar)")
+      leia(idade)
+      se idade < 21 entao
+         contv <- contv+1
+         senao
+         se idade > 50 entao
+         contc <- contc+1
+         fimse
+      fimse
+ate idade = 0
+escreval("qtd de menores de 21: ", contv)
+escreval("qtd de maiores de 50: ", contc)
+
+Fimalgoritmo
+
