@@ -1,0 +1,17 @@
+algoritmo "questao"
+
+var x, soma : inteiro
+
+ inicio
+
+soma <- 0
+
+para x de 1 ate 100 faca
+
+soma <- soma+x
+
+fimpara
+
+escreval(soma)
+
+  fimalgoritmo
