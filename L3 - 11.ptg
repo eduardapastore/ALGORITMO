@@ -1,0 +1,19 @@
+algoritmo "questao"
+
+var num, maior : real
+
+ inicio
+
+maior <- 0
+
+repita
+   escreval("digite o numero: (digite 0 pra encerrar)")
+   leia(num)
+      se num > maior entao
+         maior <- num
+      fimse
+ate num = 0
+
+escreval("o maior numero digitado e: ",maior)
+
+  fimalgoritmo
