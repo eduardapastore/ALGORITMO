@@ -1,0 +1,16 @@
+Algoritmo "4"
+
+Var
+
+x : inteiro
+
+Inicio
+
+para x de 1 ate 100 faca
+     se (x%2 = 0) então
+        escreval(x)
+     fimse
+fimpara
+
+Fimalgoritmo
+
