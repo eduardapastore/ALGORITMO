@@ -1,0 +1,19 @@
+algoritmo "questao"
+
+var media, soma : real
+var x, num : inteiro
+
+inicio
+
+soma <- 0
+
+para x de 1 ate 100 faca
+   escreval("digite um numero")
+   leia(num)
+   soma <- soma+num
+fimpara
+
+media <- soma/3
+escreval("media aritmetica: ", media)
+
+fimalgoritmo
