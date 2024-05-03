@@ -1,0 +1,26 @@
+algoritmo "questao"
+
+var num, qtd : inteiro
+var resultpreco, preco, soma : real
+
+
+inicio
+
+soma <- 0
+
+repita
+   escreval("digite o numero do pedido: (digite 0 pra encerrar) ")
+   leia(num)
+   escreval("digite o preco do produto: ")
+   leia(preco)
+   escreval("digite a quantidade: ")
+   leia(qtd)
+
+      resultpreco <- qtd*preco
+      soma <- soma+resultpreco
+
+ate num = 0
+
+escreval("valor total da compra: ", soma)
+
+fimalgoritmo
