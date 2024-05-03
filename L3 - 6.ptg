@@ -1,0 +1,26 @@
+Algoritmo "6"
+
+Var
+
+contm, contf : inteiro
+sexo : caractere
+
+Inicio
+
+contm <- 0
+contf <- 0
+repita
+      escreval("digite o sexo: (M/F ou P para encerrar) ")
+      leia(sexo)
+      se sexo = "m" então
+         contm := contm+1
+         senao
+              se sexo = "f" então
+              contf := contf+1
+              fimse
+      fimse
+até sexo = "p"
+escreval("quantidade de mulheres: ", contf)
+escreval("quantidade de homens: ", contm)
+
+Fimalgoritmo
