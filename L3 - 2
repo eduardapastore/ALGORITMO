@@ -1,0 +1,17 @@
+algoritmo "questao"
+
+var x : inteiro
+var num, quadrado : inteiro
+
+inicio
+
+para x de 1 ate 2 faca
+
+   escreval("digite o numero")
+   leia(num)
+   quadrado <- num*num
+   escreval("quadrado = ", quadrado)
+
+fimpara
+
+fimalgoritmo
