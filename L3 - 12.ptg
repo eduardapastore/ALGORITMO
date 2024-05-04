@@ -1,0 +1,21 @@
+algoritmo "questao"
+
+var x, anterior, atual, proximo : inteiro
+
+ inicio
+
+anterior <- 0
+atual <- 0
+proximo <- 1
+
+para x de 0 ate 20 faca
+
+anterior <- atual
+atual <- proximo
+proximo <- atual+anterior  
+
+escreval(atual)
+
+fimpara
+
+  fimalgoritmo
