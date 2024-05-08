@@ -1,0 +1,17 @@
+algoritmo "questão"
+
+var  x, num, res: inteiro
+
+inicio
+
+escreval("digite o numero para ver a tabuada")
+leia(num)
+escreval("tabuada de", num)
+
+para x de 1 ate 10 faca
+   res <- num*x
+
+   escreval(res)
+fimpara
+
+fimalgoritmo
