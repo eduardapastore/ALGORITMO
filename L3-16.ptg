@@ -1,0 +1,28 @@
+algoritmo "questão"
+
+var
+
+x : inteiro
+nota1, nota2, medialuno, somamedia, mediaturma: real
+nome : caractere
+
+inicio
+
+somamedia <- 0
+
+para x de 1 ate 3 faca
+   escreval("digite o nome do aluno: ")
+   leia(nome)
+   escreval("digite a primeiro nota: ")
+   leia(nota1)
+   escreval("digite a segunda nota: ")
+   leia(nota2)
+   medialuno <- (nota1+nota2)/2
+   somamedia <- somamedia + medialuno
+   escreval("media do aluno: ", medialuno)
+fimpara
+
+mediaturma <- somamedia/3
+escreval("a media da turma é: ", mediaturma)
+
+fimalgoritmo
