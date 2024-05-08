@@ -1,0 +1,14 @@
+algoritmo "questão"
+
+var  x, num: inteiro
+
+inicio
+
+escreval(" 1")
+
+para x de 1 ate 20 faca
+     num <- num-1+num+2
+     escreval(num)
+fimpara
+
+fimalgoritmo
