@@ -1,0 +1,21 @@
+algoritmo "questao"
+
+var z, x, y, multiplicacao : real
+
+ inicio
+
+escreval("digite o primeiro numero: ")
+   leia(y)
+escreval("digite o segundo numero: ")
+   leia(z)
+
+para x de 1 ate z faca
+
+multiplicacao <- x+x
+
+fimpara
+
+escreval("resultado: ",multiplicacao)
+
+
+  fimalgoritmo
