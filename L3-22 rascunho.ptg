@@ -1,0 +1,36 @@
+algoritmo ""
+
+var x, numcarteira, qtdmultas, maiorqtdrecurso : inteiro
+var valmulta, somamulta : real
+
+inicio
+
+somamulta <- 0
+qtdmultas <- 0
+maiorqtdrecurso <- 0
+
+repita
+   escreval("numero da carteira do motorista: ")
+      leia(numcarteira)
+   se numcarteira <> 0 entao
+   escreval("digite a quantidade de multas: ")
+      leia(qtdmultas)
+
+      para x de 1 ate qtdmultas faca
+         escreval("digite o preco da multa: ")
+         leia(valmulta)
+         somamulta <- somamulta+valmulta
+      fimpara
+      escreval(" recurso: ", somamulta)
+
+   senao
+         se qtdmultas > 0
+            maiorqtdrecurso <- numcarteira
+         fimse
+   fimse
+      
+ate numcarteira = 0
+
+escreval("numero com carteira com maior numero de multas: ", maiorqtdrecurso)
+
+fimalgoritmo
