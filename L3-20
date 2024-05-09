@@ -1,0 +1,37 @@
+algoritmo "questao"
+
+var nome : caractere
+var ap, estadia : inteiro
+var diaria,valorfinal : real
+
+ inicio
+
+diaria <- 100
+valorfinal <- 0
+
+repita
+
+ escreval("digite o apartamento: ")
+      leia(ap)
+se  ap <> 0 entao
+   escreval("digite o nome: ")
+      leia(nome)
+   escreval("digite a quantidade de dias de estadia: ")
+      leia(estadia)
+
+   se estadia  < 10 entao
+   valorfinal <- (diaria*estadia)+15
+senao
+      se estadia >= 10 entao
+      valorfinal <- (diaria*estadia)+8
+   fimse
+      fimse
+
+escreval(nome, " deve pagar: ", valorfinal)
+fimse
+
+ate ap = 0
+
+
+  fimalgoritmo
+//Código realizado en 'Pseudocode' App for Android
