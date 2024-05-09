@@ -1,0 +1,48 @@
+algoritmo "questao"
+
+var nome : caractere
+var n1, n2, n3, n4, n5, porcentagem, media : real
+var matricula, contalunos, x, p : inteiro
+
+ inicio
+
+contalunos <- 0
+
+repita
+
+   escreval("digite o numero da matricula: ")
+   se matricula <> 0
+contalunos <- contalunos+1
+      escreval("digite o nome do aluno: ")
+         leia(nome)
+      escreval("primeira nota: ")
+         leia(n1)
+      escreval("seguna nota: ")
+         leia(n2)
+      escreval("terceira nota: ")
+         leia(n3)
+      escreval("quarta nota: ")
+         leia(n4)
+      escreval("quinta nota: ")
+         leia(n5)
+   media <- (n1+n2+n3+n4+n5)/5
+   se n3 >= 7 entao
+     p <- p+=1
+   fimse
+
+para x de 1 ate contalunos faca
+   se (n1 >= 7) e (n2 >=7) entao
+      escreval(nome)
+   senao 
+      se media >= 7 entao
+         escreval(nome)
+         senao
+            se n3 > 7
+            porcentagem <- (p-contalunos)/100
+      fimse
+fimse
+fimpara
+
+ate matricula = 0
+
+  fimalgoritmo
