@@ -1,17 +1,18 @@
 algoritmo "questao"
 
-var nome : caractere
-var n1, n2, n3, n4, n5, porcentagem, media : real
-var matricula, contalunos, x, p : inteiro
+var
+   nome : caractere
+   n1, n2, n3, n4, n5, porcentagem, media : real
+   matricula, contalunos, x, p : inteiro
 
  inicio
 
 contalunos <- 0
 
 repita
-
    escreval("digite o numero da matricula: ")
-   se matricula <> 0
+   leia(matricula)
+   se matricula <> 0 entao
 contalunos <- contalunos+1
       escreval("digite o nome do aluno: ")
          leia(nome)
@@ -27,22 +28,25 @@ contalunos <- contalunos+1
          leia(n5)
    media <- (n1+n2+n3+n4+n5)/5
    se n3 >= 7 entao
-     p <- p+=1
+     p <- p+1
    fimse
 
 para x de 1 ate contalunos faca
-   se (n1 >= 7) e (n2 >=7) entao
-      escreval(nome)
-   senao 
+   se (n1 >= 7) e (n4 >=7) entao
+      escreval(nome, " tem nota da 1° e da 4° prova dentro da media")
+   senao
       se media >= 7 entao
-         escreval(nome)
+         escreval(nome, " tem media maior que sete")
          senao
-            se n3 > 7
-            porcentagem <- (p-contalunos)/100
+            se n3 >= 7
+            porcentagem <- (p-contalunos)*1.100
+            escreval("porgentagem de alunos com
+            fimse
       fimse
-fimse
+   fimse
 fimpara
-
+fimse
 ate matricula = 0
 
-  fimalgoritmo
+
+fimalgoritmo
