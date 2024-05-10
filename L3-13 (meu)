@@ -1,0 +1,21 @@
+algoritmo "serie_alternada"
+
+var
+num, i : inteiro
+
+inicio
+// Inicialização
+num <- 1 // Começa com 1
+
+// Loop para imprimir a série
+para i de 1 ate 50 faca
+    se i mod 2 = 1 entao
+        escreval(num, ", ") // Imprime o número atual
+        num <- num + 99 // Adiciona 99 para obter o próximo número
+    senao
+        escreval(num, ", ") // Imprime o número atual
+        num <- num - 3 // Subtrai 3 para obter o próximo número
+    fimse
+fimpara
+
+fimalgoritmo
