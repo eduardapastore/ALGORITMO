@@ -1,0 +1,25 @@
+algoritmo "semnome"
+
+var
+
+vet : vetor[1..5] de caractere
+resp : caractere
+x : inteiro
+
+inicio
+
+para x de 1 ate 5 faca
+     escreval("digite um nome: ")
+     leia(vet[x])
+fimpara
+
+escreval("digite o nome para mostrar a posição: ")
+leia(resp)
+
+para x de 1 ate 5 faca
+     se resp = vet[x] entao
+     escreval("a posição do nome é: ", x)
+     fimse
+fimpara
+
+fimalgoritmo
