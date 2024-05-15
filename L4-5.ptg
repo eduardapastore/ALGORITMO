@@ -7,8 +7,8 @@ l, c, num : inteiro
 
 inicio
 
-para l de 1 ate 2 faca
-     para c de 1 ate 2 faca
+para l de 1 ate 10 faca
+     para c de 1 ate 10 faca
      escreval("digite o numero: ")
      leia(mat[l,c])
      fimpara
@@ -16,8 +16,8 @@ fimpara
 
 //os numeros da diagonal principal são números que tem linha e coluna iguais
 
-para l de 1 ate 2 faca
-     para c de 1 ate 2 faca
+para l de 1 ate 10 faca
+     para c de 1 ate 10 faca
      se l = c entao
      escreva(" ", mat[l,c])
      fimse
