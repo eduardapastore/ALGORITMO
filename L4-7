@@ -1,0 +1,27 @@
+algoritmo "semnome"
+
+var
+
+vet1 : vetor[1..2] de inteiro
+vet2 : vetor[1..2] de inteiro
+soma : vetor[1..2] de inteiro
+x : inteiro
+
+inicio
+
+para x de 1 ate 2 faca
+     escreval("digite o numero do vet1: ")
+     leia(vet1[x])
+     escreval("digite o numero do vet2: ")
+     leia(vet2[x])
+fimpara
+
+para x de 1 ate 2 faca
+     soma[x] <- vet1[x] + vet2[x]
+fimpara
+
+para x de 1 ate 2 faca
+     escreval(soma[x])
+fimpara
+
+fimalgoritmo
