@@ -7,15 +7,15 @@ l, c, num : inteiro
 
 inicio
 
-para l de 1 ate 2 faca
-     para c de 1 ate 2 faca
+para l de 1 ate 10 faca
+     para c de 1 ate 10 faca
      escreval("digite o numero: ")
      leia(mat[l,c])
      fimpara
 fimpara
 
-para l de 1 ate 2 faca
-     para c de 1 ate 2 faca
+para l de 1 ate 10 faca
+     para c de 1 ate 10 faca
      se (mat[l,c] MOD 2) <> 0 entao
      escreva(" ", mat[l,c])
      fimse
