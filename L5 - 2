@@ -1,0 +1,29 @@
+algoritmo "ATV 2"
+
+var
+
+w : Real
+x : inteiro
+
+funcao calculardobro (w: real) : real
+
+var
+
+   z : real
+
+inicio
+
+      z := w*w
+      retorne z
+
+fimfuncao
+
+inicio
+
+      para x de 1 ate 3 faca
+           escreval("digite o numero: ")
+           leia(w)
+           escreval("o dobro é: ",  calculardobro(w))
+      fimpara
+
+fimalgoritmo
