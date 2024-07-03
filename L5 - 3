@@ -1,0 +1,23 @@
+algoritmo "ATV 3"
+
+var
+
+x, y : real
+
+procedimento proced(x, y : real)
+inicio
+      se x > y entao
+         escreval("numero maior: ", x)
+         senao
+              escreval("número maior: ", y)
+      fimse
+fimprocedimento
+
+inicio
+      escreval("digite um número: ")
+      leia(x)
+      escreval("digite um número: ")
+      leia(y)
+      proced(x, y)
+      
+fimalgoritmo
