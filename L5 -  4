@@ -1,0 +1,27 @@
+algoritmo "ATV 4"
+
+var
+
+x: inteiro
+
+procedimento proced(x: inteiro)
+inicio
+      se x = 1 entao
+         escreval("janeiro")
+         senao
+              se x = 2 entao
+              escreval("fevereiro")
+              senao
+                   se x = 3 entao
+                   escreval("março")
+                   fimse
+              fimse
+      fimse
+fimprocedimento
+
+inicio
+      escreval("digite um número: [de 1 a 3] ")
+      leia(x)
+      proced(x)
+      
+fimalgoritmo
