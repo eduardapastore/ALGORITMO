@@ -1,0 +1,28 @@
+algoritmo "ATV 5"
+
+var
+
+x, y: inteiro
+
+funcao verificardiv(w, z: inteiro) : inteiro
+
+var
+
+qc : inteiro
+
+inicio
+
+qc := w DIV z
+retorne qc
+
+fimfuncao
+
+
+inicio
+      escreval("digite o dividendo: ")
+      leia(x)
+      escreval("digite o divisor: ")
+      leia(y)
+      escreval("o dividendo", x," é dividido", verificardiv(x,y))
+      
+fimalgoritmo
