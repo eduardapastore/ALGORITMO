@@ -1,0 +1,33 @@
+algoritmo "ATV 1"
+
+var
+
+n1, n2, n3, soma, media: Real
+
+funcao calcularmedia (s : real) : real
+
+var
+
+media : real
+
+inicio
+
+      media := s/3
+      retorne media
+
+fimfuncao
+
+inicio
+
+      escreval("digite a primeira nota: ")
+      leia(n1)
+      escreval("digite a primeira nota: ")
+      leia(n2)
+      escreval("digite a primeira nota: ")
+      leia(n3)
+      
+      soma := n1+n2+n3
+      
+      escreval("Media: ",  calcularmedia(soma))
+
+fimalgoritmo
